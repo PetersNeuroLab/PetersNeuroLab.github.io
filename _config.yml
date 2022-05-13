@@ -1,0 +1,34 @@
+title: Andy Peters
+description: Andy Peters - Neuroscience
+baseurl: "/"
+url: ""
+
+email: peters.andrew.j+website@gmail.com
+twitter: flickerfusion
+googlescholar: kJ_SaH8AAAAJ
+orcid: 0000-0001-9351-1456
+github: petersaj
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Posts settings
+future: true
+safe: false
+lsi: false
+excerpt_separator: "\n\n"
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+
+images: '/assets/images'
+papers: '/papers'
