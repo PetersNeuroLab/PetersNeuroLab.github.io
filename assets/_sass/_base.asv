@@ -258,7 +258,7 @@ ul.accounts li a
 }
 
 .lab-logo{
-    width: 100px;
+    
     display: inline-block;
     padding: 5px 5px;
     float: left;
