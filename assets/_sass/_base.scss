@@ -242,12 +242,26 @@ ul.accounts li a
     }			
 
 /*
-* Science images
+* Image types
 * ========================================================================== */
 .science-image{
     display: inline-block;
     width: 40%;
     padding: 20px 20px;
+    float: left;
+}
+
+.person-image{
+    display: inline-block;
+    width: 40%;
+    padding: 20px 20px;
+    float: left;
+}
+
+.lab-logo{
+    display: inline-block;
+    width: 100%;
+    padding: 0px 0px;
     float: left;
 }
 
