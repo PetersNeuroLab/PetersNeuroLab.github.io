@@ -108,6 +108,7 @@
 
 }
 
+/* ===== Full screen ===== */
 @media screen and (min-width: $break-point) {
   table {
     display: table;
@@ -134,8 +135,8 @@
   }
 
   .sidebar {
-    width: 100%;
-    height: 20%;
+    width: $aside-width;
+    height: 100%;
     position: fixed;
     left: 0;
     top: 0;
