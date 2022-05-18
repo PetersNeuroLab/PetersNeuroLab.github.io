@@ -99,10 +99,10 @@
       }
 
       .sidebar { 
-        display: block;
+        display: inline;
         background-position: top center;
         background-attachment: fixed;
-        background-size: 100% 30%;
+        background-size: cover;
         width: 100%;
         height: 30%;
     }
