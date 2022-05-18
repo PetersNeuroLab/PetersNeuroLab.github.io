@@ -2,6 +2,8 @@
 * Media Queries
 * ========================================================================== */
 
+/* ===== Small screen ===== */
+
 @media screen and (min-width: $md-break-point) {
   body { font-size: 17px; }
   h1 { font-size: 2em; }
@@ -90,16 +92,16 @@
 }
 
 
-
+/* ===== Medium screen ===== */
 @media screen and (max-width: $break-point) {
       .nav-main a {
         font-size: 14px;
       }
 
       .sidebar { 
-        display: block;
+        display: block-inline;
         background-position: center;
-        background-size: auto 30vh;
+        background-size: 100% 1vh;
     }
 
     main {
@@ -108,7 +110,7 @@
 
 }
 
-/* ===== Full screen ===== */
+/* ===== Large screen ===== */
 @media screen and (min-width: $break-point) {
   table {
     display: table;
