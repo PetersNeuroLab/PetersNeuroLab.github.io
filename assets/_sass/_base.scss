@@ -264,7 +264,7 @@ ul.accounts li a
     max-width: 200px;
     display: inline;
     padding: 50px 5px;
-    float: left;
+    float: center;
 }
 
 /*
@@ -284,13 +284,13 @@ ul.codedata li:first-child
 
 .repo
 {
-    display: inline-block;
+    display: block;
     width: 80%;
     background: #8d67a8;
     color: #ffffff !important;
     font-size: 1em;
     padding: 0.5em 0.5em;
-    margin: 0.5em 0.5em;
+    margin: auto 0.5em;
     text-align: center;
     border-radius: 5px;
     -moz-transition: all .25s ease-in-out;
