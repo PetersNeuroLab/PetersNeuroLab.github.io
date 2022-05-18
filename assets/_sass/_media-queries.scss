@@ -100,8 +100,9 @@
 
       .sidebar { 
         display: block;
-        background-position: center;
-        background-size: 100vw 30vh;
+        background-position: top center;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     main {
