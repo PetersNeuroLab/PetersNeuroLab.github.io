@@ -7,5 +7,47 @@ summary: "Useful code and published data"
 permalink: /codedata/
 active: true
 ---
+    These repositories are intended for general use and maintained:
+    <div class="scibox">
+        <a class="repo" href="https://github.com/petersaj/neuropixels_trajectory_explorer">Neuropixels trajectory explorer</a>
+        <img class="science-image" src="{{ site.images }}/neuropixels_trajectory_explorer.png" alt="" />
+        MATLAB-based GUI to plan Neuropixels trajectories using the Allen
+        CCF mouse atlas. I demo an earlier version of this tool in
+        <a href="https://www.youtube.com/watch?v=ZtiX0iunUTM">this video</a>
+        for the 2021 UCL Neuropixels course.
+    </div>
 
-Code & Data
+    <div class="scibox">
+        <a class="repo" href="https://github.com/petersaj/AP_histology">Histology atlas alignment and processing</a>
+        <img class="science-image" src="{{ site.images }}/AP_histology.png" alt="" />
+        A simple MATLAB pipeline to analyze histology images (including
+        extracting Neuropixels trajectories). I demo this tool in
+        <a href="https://www.youtube.com/watch?v=HKm_G17Wc6g">this video</a>
+        for the 2021 UCL Neuropixels course.
+    </div>
+
+    These functions aren't maintainted for general use but may be useful:
+    <div class="scibox">
+        <a class="repo" href="https://github.com/petersaj/AP_scripts_cortexlab/wiki/Neuropixels-raster-viewer">Neuropixels raster viewer</a>
+        <img class="science-image" src="{{ site.images }}/raster_viewer.png" alt="" />
+        A viewer to view Neuropixels data as rasters (aligned to events,
+        grouped, sorted, single/multiunit).
+    </div>
+
+    <div class="scibox">
+        <a class="repo" href="https://github.com/petersaj/AP_scripts_cortexlab/blob/master/widefield/AP_deconv_wf.m">Widefield deconvolution (GCaMP6s)</a>
+        <img class="science-image" src="{{ site.images }}/wf_deconv.png" alt="" />
+        Deconvolve fluorescence from widefield GCaMP6s imaging
+        (also requires <a href="https://github.com/petersaj/AP_scripts_cortexlab/blob/master/widefield/gcamp6s_kernel.mat">
+        kernel</a> saved into same folder as code). Kernel was made from
+        simultaneous cortical widefield imaging and electrophysiology
+        in Peters et al., Nature 2021.
+    </div>
+
+    <div class="scibox">
+        <a class="repo" href="https://github.com/petersaj/AP_scripts_cortexlab/blob/master/general/AP_colormap.m">AP_colormap</a>
+        <img class="science-image" src="{{ site.images }}/AP_colormap.png" alt="" />
+        Clean bi/tricolor colormaps (e.g. blue-white-red = 'BWR') that
+        interpolates luminance in CIELAB space, can specify gamma value.
+    </div>
+

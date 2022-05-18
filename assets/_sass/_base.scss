@@ -285,7 +285,7 @@ ul.codedata li:first-child
 .repo
 {
     display: inline-block;
-    width: 100%;
+    width: 80%;
     background: #8d67a8;
     color: #ffffff !important;
     font-size: 1em;
@@ -298,7 +298,7 @@ ul.codedata li:first-child
     -o-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
-    float: left;
+    float: center;
 }
     .repo:hover
     {
