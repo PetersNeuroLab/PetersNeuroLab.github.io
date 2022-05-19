@@ -9,7 +9,7 @@ active: true
 ---
 
 The lab is based in the <a href="https://www.dpag.ox.ac.uk/">Department of Physiology, Anatomy and Genetics</a>
-<br>
-<a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i>Email: peters.andrew.j at gmail</a>
+
+<a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i>Email: peters andrew j at gmail</a>
 
 
