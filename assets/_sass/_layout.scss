@@ -361,9 +361,10 @@ article {
 .personbox{
   display: inline-block;
   width: 40%;
+  max-width: 200px;
   background-color: white;
   box-shadow: 2px 2px 5px grey;
-  margin: 10px auto;
+  margin: 10px;
 }
 
 .personbox h4{
