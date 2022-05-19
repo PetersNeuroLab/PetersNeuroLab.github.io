@@ -268,8 +268,9 @@ ul.accounts li a
 }
 
 .funding-logo{
+    display: inline-block;
     width: 150px;
-    display: inline;
+    height: 150px; 
     margin: auto auto;
 }
 
