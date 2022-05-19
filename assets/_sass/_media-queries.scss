@@ -101,7 +101,7 @@
       .sidebar { 
         display: block;
         background-position: top center;
-        background-size: 100vh auto;
+        background-size: auto 100vw;
     }
       .cover {
         text-align: right;
@@ -112,7 +112,7 @@
         width: auto;
         float: left;
         display: block;
-        margin: auto 0;
+        margin: auto 0 auto 0;
 }
 
     main {
