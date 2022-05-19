@@ -32,3 +32,4 @@ sass:
 
 images: '/assets/images'
 papers: '/papers'
+files: '/assets/files'

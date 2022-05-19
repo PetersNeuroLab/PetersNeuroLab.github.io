@@ -13,9 +13,7 @@ active: true
     <h4>Andy Peters</h4>
     <h5>Principle Investigator</h5>
     <p>
-        <a href="{{ site.files }}/Andrew_Peters_CV.pdf">CV</a>
-        <span>&#183;</span>
-        <a href="https://github.com/petersaj">Github</a>
+        <a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i>Email: peters.andrew.j at gmail</a>
     </p>
 </div>
 
@@ -24,8 +22,9 @@ active: true
     <h4>Name</h4>
     <h5>Position</h5>
     <p>
-        Links
+        Person bio
     </p>
 </div>
+
 
 
