@@ -101,17 +101,17 @@
       .sidebar { 
         display: block;
         background-position: top center;
-        background-size: auto 100vw;
+        background-size: cover;
     }
       .cover {
         text-align: right;
     }
 
       .lab-logo{
-        height: 20vh;
+        height: 30vh;
         width: auto;
         float: left;
-        padding: 40px 0 5px 5px;
+        margin-top: 40px; 
 }
 
     main {
