@@ -25,14 +25,13 @@ summary: "Peters Lab"
     We're particularly focused on the loop between the cortex, basal
     ganglia, and thalamus: these structures work together to learn 
     and execute behavior, but it's a very open question how they do this.
-    I'm interested in this because of the fundamental science (how 
-    does the brain create our experience?), but it's also critical for 
-    understanding diseases like Parkinson's and Huntington's.
+    I'm interested in this because of the fundamental science (hojw
 </p>
 
-<p> The lab is supported by: </p>
-<img src="{{ site.images }}/wellcome_logo.png"/>
-<img src="{{ site.images }}/royal_society_logo.jpg"/>
+
+
+
+
 
 
 
