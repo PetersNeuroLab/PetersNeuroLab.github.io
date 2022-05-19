@@ -8,8 +8,14 @@ permalink: /contact/
 active: true
 ---
 
-The lab is based in the <a href="https://www.dpag.ox.ac.uk/">Department of Physiology, Anatomy and Genetics</a>
+<a href="https://www.dpag.ox.ac.uk/">Department of Physiology, Anatomy and Genetics</a><br>
+University of Oxford <br>
+Sherrington Building <br>
+​Parks Road <br>
+Oxford <br>
+OX1 3PT <br>
 
-<a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i>Email: peters andrew j at gmail</a>
+    <b
+<a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i>Email: peters.andrew.j at gmail</a>
 
 
