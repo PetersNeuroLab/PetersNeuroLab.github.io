@@ -24,7 +24,7 @@ body {
 }
 
 article p {
-  font-size: 0.8em;
+  font-size: 1em;
   margin-bottom: 15px;
 }
 
@@ -119,6 +119,7 @@ table {
   display: block;
   margin: 0 auto;
   border: 0;
+  font-size: 1em;
 }
 
 table tr:nth-child(even) {
