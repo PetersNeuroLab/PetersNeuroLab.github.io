@@ -402,10 +402,10 @@ article {
 }
 
 /*
-* inline box
+* imagetable
 * ========================================================================== */
-.inlinebox{
-  display: table-cell;
+.imagetable{
+  display: table;
   width: 100%;
   text-align: center;
   vertical-align: middle;
