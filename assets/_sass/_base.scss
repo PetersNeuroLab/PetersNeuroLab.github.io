@@ -275,7 +275,8 @@ ul.accounts li a
 }
 
 .inline-image{
-    display: inline;
+    display: inline-block;
+    width = auto;
     max-width: 200px; 
     height: auto;
     margin: auto auto;
