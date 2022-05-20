@@ -360,7 +360,7 @@ article {
 * ========================================================================== */
 .personbox{
   display: inline-block;
-  width: 40%;
+  width: 30%;
   max-width: 500px;
   background-color: white;
   box-shadow: 2px 2px 5px grey;
@@ -379,8 +379,9 @@ article {
 }
 
 .personbox p{
+    font-size: 0.8em;
     margin: 0.1em 0.1em;
-    padding: 0px;
+    padding: 0 0 3px;
 }
 
 /*

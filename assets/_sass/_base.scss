@@ -255,8 +255,8 @@ ul.accounts li a
 .person-image{
     display: block;
     width: 100%;
-    height: 200px;
-    max-height: 200px;
+    height: auto;
+    max-height: 300px;
     object-fit: cover;
     padding: 0 0 3px 0;
     margin: 0 0;
