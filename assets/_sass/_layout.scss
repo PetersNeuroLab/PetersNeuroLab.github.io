@@ -383,6 +383,22 @@ article {
     padding: 0px;
 }
 
+/*
+* Announcement boxes
+* ========================================================================== */
+.announcementbox{
+  display: inline-block;
+  width: 85%;
+  background-color: #d1c3db;
+  margin: 10px;
+}
+
+.announcementbox p{
+    margin: 0.1em 0.1em;
+    padding: 0px;
+    color: black;
+    font-weight: 400;
+}
 
 /*
 * PDF viewer division
