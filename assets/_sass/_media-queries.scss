@@ -113,13 +113,13 @@
     }
       .cover-text {
         position: inherit;
+        float: right;
     }
 
       .lab-logo{
-        display: inline-block;
         height: 100%;
         width: auto;
-        float: none;
+        float: left;
         margin-top: 20px;
     }
 
