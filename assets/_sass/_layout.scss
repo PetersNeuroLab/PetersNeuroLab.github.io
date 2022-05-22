@@ -357,6 +357,12 @@ article {
 /*
 * Person boxes
 * ========================================================================== */
+.peoplebox{ 
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
 .personbox{
   display: inline-block;
   width: 45%;
