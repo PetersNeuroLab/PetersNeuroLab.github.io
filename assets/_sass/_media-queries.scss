@@ -109,10 +109,10 @@
 
       .cover {
         text-align: right;
+        top: 10%;
     }
       .cover-text {
-        position: relative;
-        bottom: 10vh;
+        position: inherit;
     }
 
       .lab-logo{
