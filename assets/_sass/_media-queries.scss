@@ -101,15 +101,15 @@
       .sidebar { 
         display: block;
         background-position: center center;
-        background-size: auto 100vw;
+        background-size: cover;
         background-color: black;
         width: 100vw;
         height: 50vh;
     }
 
       .cover-text {
-        top: 50%;
-        right: 10%;
+        bottom: 50%;
+        left: 50%;
     }
 
       .lab-logo{
