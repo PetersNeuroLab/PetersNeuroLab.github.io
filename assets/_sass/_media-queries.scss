@@ -107,9 +107,11 @@
         height: 50vh;
     }
 
+      .cover {
+        text-align: right;
+    }
       .cover-text {
-        bottom: 80%;
-        left: 0%;
+        position: relative;
     }
 
       .lab-logo{
