@@ -31,5 +31,6 @@ sass:
 
 
 images: '/assets/images'
+images-people: '/assets/images/people'
 papers: '/papers'
 files: '/assets/files'
