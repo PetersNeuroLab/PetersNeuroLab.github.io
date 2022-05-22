@@ -119,8 +119,8 @@
         display: inline-block;
         height: 100%;
         width: auto;
-        float: left;
-        margin: auto 10px;
+        float: none;
+        margin-top: 20px;
     }
 
     main {

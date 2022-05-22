@@ -24,6 +24,7 @@ body {
 }
 
 article p {
+  font-size: 1em;
   margin-bottom: 15px;
 }
 
@@ -111,17 +112,18 @@ pre {
 * Table
 * ========================================================================== */
 table {
+  table-layout: fixed;
   width: 100%;
-  max-width: 100%;
   border-collapse: collapse;
   margin: 2% 0;
-  overflow-x: auto;
   display: block;
   margin: 0 auto;
+  border: 0;
+  font-size: 1em;
 }
 
 table tr:nth-child(even) {
-  background: #f9f9f9;
+  background: white;
 }
 table th {
   background: #f5f5f5;
@@ -129,9 +131,9 @@ table th {
 }
 th,
 td {
-  text-align: left;
-  padding: .313em .625em;
-  border: 1px solid #efefef;
+  text-align: center;
+  padding: 0;
+  border: 0;
 }
 table caption {
   padding: .3em;
@@ -245,23 +247,45 @@ ul.accounts li a
 * Image types
 * ========================================================================== */
 .science-image{
-    display: inline-block;
-    width: 40%;
+    display: inline;
+    width: 200px;
     padding: 20px 20px;
+    margin: 0px 0px;
     float: left;
 }
 
 .person-image{
-    display: inline-block;
+    display: block;
     width: 100%;
-    padding: 10px 10px;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    padding: 0 0 3px 0;
+    margin: 0 0;
 }
 
 .lab-logo{
-    
+    width: 80%;
+    max-width: 200px;
+    display: inline;
+    padding: 50px 5px;
+    float: center;
+}
+
+.funding-logo{
     display: inline-block;
-    padding: 5px 5px;
-    float: left;
+    height: 150px; 
+    width: auto;
+    margin: auto auto;
+}
+
+.inline-image{
+    display: block;
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    margin: auto;
 }
 
 /*
@@ -281,13 +305,13 @@ ul.codedata li:first-child
 
 .repo
 {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: 80%;
     background: #8d67a8;
     color: #ffffff !important;
     font-size: 1em;
     padding: 0.5em 0.5em;
-    margin: 0.5em 0.5em;
+    margin: auto;
     text-align: center;
     border-radius: 5px;
     -moz-transition: all .25s ease-in-out;
@@ -295,7 +319,6 @@ ul.codedata li:first-child
     -o-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
-    float: left;
 }
     .repo:hover
     {
