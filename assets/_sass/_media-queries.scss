@@ -116,9 +116,10 @@
     }
 
       .lab-logo{
+        display: inline-block;
         height: 100%;
         width: auto;
-        float: left;
+        float: none;
         margin-top: 20px;
     }
 
