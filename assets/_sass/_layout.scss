@@ -161,20 +161,9 @@ a {
 .cover-text {
   color: #fff;
   text-shadow: 2px 0 5px #333;
-  position: absolute;
+  position: relative;
   bottom: 5%;
   width: 80%;
-  left: 10%;
-  .heading a {
-    position: relative;
-    margin-right: 5px;
-    text-decoration: none;
-    &:hover { text-decoration: underline; }
-    &:not(:last-child):after {
-      content: " , ";
-      position: absolute;
-      bottom: 0;
-    }
   }
 }
 
