@@ -109,10 +109,13 @@
 
       .cover-text {
         text-align: right;
+        position: relative;
     }
 
       .lab-logo{
         display: inline-block;
+        height: 80%;
+        width: auto; 
         float: left;
         margin: auto 10px;
     }
