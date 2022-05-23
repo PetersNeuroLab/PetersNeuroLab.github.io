@@ -111,11 +111,13 @@
         text-align: right;
         right: 10px;
         top: 15%;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
     }
 
       .lab-logo{
         display: inline-block;
-        height: 80%;
+        max-height: 100%;
         width: auto; 
         float: left;
         margin: 15% 10px;
