@@ -3,10 +3,7 @@
   <div class="cover">
 
     <img class="lab-logo" src="{{ site.images }}/Peters_lab_icon_darkbg.png" alt="Peters lab"/>
-
-    <div class="cover-text">
-          {{ page.title }}
-    </div>
+    {{ page.title }}
 
   </div>
 </aside>
