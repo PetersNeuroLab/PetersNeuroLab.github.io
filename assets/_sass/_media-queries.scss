@@ -101,7 +101,7 @@
       .sidebar { 
         display: block;
         background-position: center center;
-        background-size: auto 100vw;
+        background-size: 100% auto;
         background-color: black;
         width: 100vw;
         height: 50vh;
@@ -113,7 +113,8 @@
     }
 
       .lab-logo{
-        height: 40vh;
+        display: inline-block;
+        height: 30vh;
         width: auto;
         float: left;
         margin: auto 10px;
