@@ -24,7 +24,7 @@ or <a href="https://orcid.org/{{site.orcid}}">Orcid</a>
         A specific zone in the medial prefrontal cortex (mPFC) 
         becomes responsive to visual stimuli when mice learn to associate
         them with a movement. This suggests that information about 
-        behaviorally relevant stimuli becomes routed to the mPFC with
+        behaviorally-relevant stimuli becomes routed to the mPFC with
         learning.
     </p>
 </div>
@@ -39,7 +39,16 @@ or <a href="https://orcid.org/{{site.orcid}}">Orcid</a>
         connected regions of the cortex and striatum, changing only in 
         gain with learning. This suggests that the cortex and striatum
         operate in sync with each other, and become more tightly
-        locked together by learning.
+        locked together by learnin
+        
+        
+        cortical activity propagates 
+        through the striatum untransformed but more effectively
+        after learning
+        
+        
+        striatal activity can
+        be interpreted simply in the context of cortical activity.
     </p>
 </div>
 
