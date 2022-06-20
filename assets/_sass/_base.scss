@@ -10,7 +10,7 @@
   display: none;
 }
 
-a:link, a:visited { color: #8d67a8; text-decoration: none; }
+a:link, a:visited { color: #002147; text-decoration: none; }
 a:hover, a:active { color: #b0b0b0; }
 
 body {
@@ -231,7 +231,7 @@ ul.accounts li a
     padding: 0.5em 0.5em;
     text-align: center;
     border-radius: 5px;
-    background: #8d67a8;
+    background: #002147;
     -moz-transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
@@ -310,7 +310,7 @@ ul.codedata li:first-child
 {
     display: block;
     width: 80%;
-    background: #8d67a8;
+    background: #002147;
     color: #ffffff !important;
     font-size: 1em;
     padding: 0.5em 0.5em;
